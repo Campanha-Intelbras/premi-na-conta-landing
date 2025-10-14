@@ -25,7 +25,7 @@ const benefits = [
   {
     icon: Clock,
     title: "Receba de 2 a 7 dias",
-    description: "Seu dinheiro na conta de forma rápida e segura",
+    description: "Dinheiro na conta de forma rápida e segura",
   },
   {
     icon: Users,
