@@ -7,11 +7,11 @@ const Campaign = () => {
   return (
     <section className="py-20">
       <div className="container px-4">
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-6 bg-gradient-secondary bg-clip-text text-transparent break-words">
+        <div className="text-center max-w-3xl mx-auto mb-16 px-6">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-6 bg-gradient-secondary bg-clip-text text-transparent leading-tight">
             Conheça o site do produto: www.cappta.com.br/intelbras
           </h2>
-          <p className="text-base md:text-lg text-muted-foreground mb-6">
+          <p className="text-sm sm:text-base md:text-lg text-muted-foreground mb-6">
             Comece suas ações de divulgação e tenha em mãos uma ferramenta para o dia a dia da campanha.
           </p>
           <a 
