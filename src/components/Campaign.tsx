@@ -108,6 +108,10 @@ const Campaign = () => {
                 <p>Vendedores e Parceiros do Distribuidor que auxiliarem na ativação e uso da solução "Tá na Conta" junto às Revendas Intelbras da sua carteira</p>
               </div>
               <div>
+                <h4 className="font-semibold text-foreground mb-2">✓ Toda a carteira é válida</h4>
+                <p>Revendas que já aderiram e possuem maquininha também geram ganhos. Lembre-os de usar e seja premiado por isso</p>
+              </div>
+              <div>
                 <h4 className="font-semibold text-foreground mb-2">✓ Forma de pagamento</h4>
                 <p>Prêmios pagos via Cartão Prêmio até o 15º dia útil do mês subsequente</p>
               </div>
