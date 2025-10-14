@@ -8,12 +8,22 @@ const Campaign = () => {
     <section className="py-20">
       <div className="container px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-secondary bg-clip-text text-transparent">
+          <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-6 bg-gradient-secondary bg-clip-text text-transparent break-words">
             Conheça o site do produto: www.cappta.com.br/intelbras
           </h2>
-          <p className="text-lg text-muted-foreground">
-            Comece suas ações de divulgação e tenha em mãos uma ferramenta para o dia a dia da campanha. Acesse agora
+          <p className="text-base md:text-lg text-muted-foreground mb-6">
+            Comece suas ações de divulgação e tenha em mãos uma ferramenta para o dia a dia da campanha.
           </p>
+          <a 
+            href="https://www.cappta.com.br/intelbras" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-block"
+          >
+            <button className="bg-gradient-primary text-primary-foreground px-8 py-3 rounded-lg font-semibold hover:shadow-elegant transition-all duration-300 hover:scale-105">
+              Acesse Agora
+            </button>
+          </a>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto mb-12">
