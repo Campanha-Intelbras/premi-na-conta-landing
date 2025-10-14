@@ -21,7 +21,6 @@ const FormSection = () => {
               <div>
                 <h3 className="font-semibold text-lg mb-2">Termo de Adesão</h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Antes de se inscrever, é importante ler e compreender todos os termos e condições da campanha.
                   O termo de adesão contém informações detalhadas sobre elegibilidade, critérios de apuração,
                   premiação e condições gerais.
                 </p>
