@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="container relative z-10 px-4 py-20">
         <div className="max-w-4xl mx-auto text-center text-primary-foreground">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-            Campanha Tá na conta e no cartão
+            Campanha "Tá na conta e no cartão"
           </h1>
           <p className="text-xl md:text-2xl mb-8 animate-fade-in opacity-90" style={{ animationDelay: "0.2s" }}>
             Ganhe até <span className="font-bold text-secondary">0,2%</span> sobre o faturamento de projetos de energia solar

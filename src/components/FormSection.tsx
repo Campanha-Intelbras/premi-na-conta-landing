@@ -10,7 +10,7 @@ const FormSection = () => {
             Inscreva-se Agora
           </h2>
           <p className="text-lg text-muted-foreground mb-8">
-            Preencha o formulário abaixo para participar da Campanha Tá na conta e no cartão.
+            Preencha o formulário abaixo para participar da Campanha "Tá na conta e no cartão".
             Leia atentamente o termo de adesão antes de se inscrever.
           </p>
         </div>
@@ -63,7 +63,7 @@ const FormSection = () => {
 
         <div className="max-w-4xl mx-auto mt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            Ao preencher o formulário, você concorda com os termos e condições da Campanha Tá na conta e no cartão.
+            Ao preencher o formulário, você concorda com os termos e condições da Campanha "Tá na conta e no cartão".
             Seus dados serão tratados de acordo com a LGPD.
           </p>
         </div>

@@ -9,7 +9,7 @@ const Campaign = () => {
       <div className="container px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-secondary bg-clip-text text-transparent">
-            Campanha Tá na conta e no cartão
+            Campanha "Tá na conta e no cartão"
           </h2>
           <p className="text-lg text-muted-foreground">
             Participe da campanha de incentivos e ganhe prêmios sobre o faturamento das suas vendas
