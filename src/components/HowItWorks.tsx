@@ -24,7 +24,7 @@ const steps = [
     icon: Award,
     number: "4",
     title: "Receba Prêmios",
-    description: "Ganhe seus prêmios via Cartão Prêmio mensalmente",
+    description: "Ganhe seus prêmios via Cartão Prêmio",
   },
 ];
 
