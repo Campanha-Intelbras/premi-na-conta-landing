@@ -24,7 +24,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center text-primary-foreground">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
             <span className="text-3xl md:text-4xl block mb-2">Campanha</span>
-            "Tá na conta e no cartão"
+            "Tá na conta e no cartão!"
           </h1>
           <p className="text-xl md:text-2xl mb-8 animate-fade-in opacity-90" style={{ animationDelay: "0.2s" }}>
             Ganhe até <span className="font-bold text-emerald-950">0,2%</span> sobre as vendas em cartão das suas revendas
