@@ -7,7 +7,7 @@ const FormSection = () => {
       <div className="container px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 pb-2 bg-gradient-primary bg-clip-text text-transparent">
-            Inscreva-se Agora
+            Inscreva-se agora!
           </h2>
           <p className="text-lg text-muted-foreground mb-8">
             Confira o termo de adesão da campanha e preencha o formulário para participar.
