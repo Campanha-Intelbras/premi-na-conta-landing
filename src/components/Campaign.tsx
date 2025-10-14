@@ -66,7 +66,9 @@ const Campaign = () => {
           <Card className="bg-gradient-secondary text-secondary-foreground border-0 shadow-elegant">
             <CardContent className="p-8">
               <div className="flex items-center gap-4 mb-6">
-                <img src={posIcon} alt="Requisitos" className="w-20 h-20" />
+                <div className="bg-secondary-foreground/10 rounded-2xl p-2 backdrop-blur-sm">
+                  <img src={posIcon} alt="Requisitos" className="w-16 h-16" />
+                </div>
                 <div>
                   <h3 className="text-3xl font-bold">Requisitos</h3>
                   <p className="text-secondary-foreground/90">Como participar</p>
