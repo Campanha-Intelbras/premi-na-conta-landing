@@ -105,7 +105,7 @@ const Campaign = () => {
             <div className="grid md:grid-cols-2 gap-6 text-sm text-muted-foreground">
               <div>
                 <h4 className="font-semibold text-foreground mb-2">✓ Quem pode participar</h4>
-                <p>Vendedores Parceiros do Distribuidor que ativarem POSs do Projeto "Tá na Conta" junto às Revendas Intelbras</p>
+                <p>Vendedores e Parceiros do Distribuidor que auxiliarem na ativação e uso da solução "Tá na Conta" junto às Revendas Intelbras da sua carteira</p>
               </div>
               <div>
                 <h4 className="font-semibold text-foreground mb-2">✓ Forma de pagamento</h4>
