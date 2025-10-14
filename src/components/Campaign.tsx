@@ -90,7 +90,7 @@ const Campaign = () => {
                     <span className="font-semibold text-lg">Mínimo para Premiação</span>
                   </div>
                   <p className="text-sm text-secondary-foreground/80 ml-9">
-                    R$ 100.000,00 de faturamento elegível acumulado no período
+                    R$ 50,00 de premiação para emissão do cartão
                   </p>
                 </div>
               </div>
