@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { CreditCard, Smartphone, TrendingUp, Clock, Receipt, Users } from "lucide-react";
+import { CreditCard, Smartphone, DollarSign, Clock, Receipt, Users } from "lucide-react";
 
 const benefits = [
   {
@@ -18,7 +18,7 @@ const benefits = [
     description: "Sem desconto de Pis e Confins na Plataforma",
   },
   {
-    icon: TrendingUp,
+    icon: DollarSign,
     title: "Mais barato que empréstimos",
     description: "Sem perder vendas para concorrência pela demora na aprovação de empréstimos",
   },
