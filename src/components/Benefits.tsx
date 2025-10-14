@@ -4,23 +4,23 @@ import { CreditCard, Smartphone, TrendingUp, Clock, Receipt, Users } from "lucid
 const benefits = [
   {
     icon: CreditCard,
-    title: "Parcele em até 21x",
-    description: "Ofereça mais opções de pagamento para seus clientes",
+    title: "Parcelamento em até 21x",
+    description: "Múltiplos cartões e longo prazo de pagamento",
   },
   {
     icon: Smartphone,
     title: "Cartões, Pix e Links de Pagamento",
-    description: "Aceite todas as formas de pagamento em um só lugar",
+    description: "Todas as formas de pagamento em um só lugar",
   },
   {
     icon: Receipt,
-    title: "Links de Pagamento",
-    description: "Envie cobranças online de forma simples e rápida",
+    title: "10% + nos serviços",
+    description: "Sem desconto de Pis e Confins na Plataforma",
   },
   {
     icon: TrendingUp,
-    title: "Cobranças Recorrentes",
-    description: "Automatize pagamentos mensais dos seus clientes",
+    title: "Mais barato que empréstimos",
+    description: "Não perca vendas pela demora na aprovação de empréstimos",
   },
   {
     icon: Clock,
