@@ -109,7 +109,7 @@ const Campaign = () => {
               </div>
               <div>
                 <h4 className="font-semibold text-foreground mb-2">✓ Toda a carteira é válida</h4>
-                <p>Revendas que já aderiram e possuem maquininha também geram ganhos. Lembre-os de usar e seja premiado por isso</p>
+                <p>Revendas que já aderiram e possuem maquininha também geram ganhos. Lembre-as de usar e seja premiado por isso</p>
               </div>
               <div>
                 <h4 className="font-semibold text-foreground mb-2">✓ Forma de pagamento</h4>
