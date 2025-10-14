@@ -39,22 +39,19 @@ const FormSection = () => {
         </Card>
 
         <Card className="max-w-4xl mx-auto border-primary/20 shadow-elegant animate-fade-in">
-          <CardContent className="p-8">
-            <div className="bg-gradient-to-br from-muted/50 to-muted/30 rounded-lg p-8 min-h-[600px] flex items-center justify-center">
-              <div className="text-center">
-                <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <FileText className="w-10 h-10 text-primary" />
-                </div>
-                <h3 className="text-2xl font-semibold mb-4">Formulário do Google</h3>
-                <p className="text-muted-foreground max-w-md mx-auto">
-                  Incorpore aqui o iframe do formulário do Google Forms para capturar os dados dos participantes.
-                </p>
-                <div className="mt-6 p-4 bg-muted rounded-lg text-sm text-left max-w-md mx-auto">
-                  <p className="font-mono text-xs text-muted-foreground">
-                    {`<iframe src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true" width="100%" height="600" frameborder="0">Carregando…</iframe>`}
-                  </p>
-                </div>
-              </div>
+          <CardContent className="p-4 md:p-8">
+            <div className="rounded-lg overflow-hidden">
+              <iframe 
+                src="https://docs.google.com/forms/d/e/1FAIpQLSdCnVvR9BsbFu4SxhkLce_rHuDjlRbbGzqQdfWef-gfIo__lg/viewform?embedded=true" 
+                width="100%" 
+                height="1000" 
+                frameBorder="0" 
+                marginHeight={0} 
+                marginWidth={0}
+                className="w-full"
+              >
+                Carregando…
+              </iframe>
             </div>
           </CardContent>
         </Card>
