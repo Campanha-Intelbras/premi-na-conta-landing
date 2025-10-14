@@ -7,8 +7,8 @@ const Footer = () => {
             <div>
               <h3 className="text-xl font-bold mb-4">Sobre o Tá na Conta</h3>
               <p className="text-primary-foreground/80 text-sm">
-                Solução completa de pagamento desenvolvida pela Intelbras em parceria com a Cappta.
-                Maquininha, portal e conta digital para impulsionar seu negócio.
+                Solução completa de pagamento, resultado da parceria Intelbras com a Cappta.
+                Maquininha, portal e conta digital para impulsionar distribuidores e revendas.
               </p>
             </div>
             <div>
