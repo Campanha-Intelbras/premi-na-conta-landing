@@ -37,7 +37,7 @@ const Footer = () => {
           
           <div className="border-t border-primary-foreground/20 pt-8 text-center">
             <p className="text-sm text-primary-foreground/70">
-              © 2025 Campanha Prêmio na Conta. Intelbras & Cappta. Todos os direitos reservados.
+              © 2025 Campanha Tá na conta e no cartão. Intelbras & Cappta. Todos os direitos reservados.
             </p>
           </div>
         </div>
