@@ -21,7 +21,9 @@ const Campaign = () => {
           <Card className="bg-gradient-primary text-primary-foreground border-0 shadow-elegant">
             <CardContent className="p-8">
               <div className="flex items-center gap-4 mb-6">
-                <img src={prizeIcon} alt="Prêmios" className="w-20 h-20" />
+                <div className="bg-primary-foreground/10 rounded-2xl p-2 backdrop-blur-sm">
+                  <img src={prizeIcon} alt="Prêmios" className="w-16 h-16" />
+                </div>
                 <div>
                   <h3 className="text-3xl font-bold">Premiação</h3>
                   <p className="text-primary-foreground/90">Ganhe sobre suas vendas</p>
