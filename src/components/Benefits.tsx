@@ -20,7 +20,7 @@ const benefits = [
   {
     icon: TrendingUp,
     title: "Mais barato que empréstimos",
-    description: "Não perca vendas pela demora na aprovação de empréstimos",
+    description: "Sem perder vendas para concorrência pela demora na aprovação de empréstimos",
   },
   {
     icon: Clock,
