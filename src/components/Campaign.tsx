@@ -112,10 +112,6 @@ const Campaign = () => {
                 <p>Prêmios pagos via Cartão Prêmio até o 15º dia útil do mês subsequente</p>
               </div>
               <div>
-                <h4 className="font-semibold text-foreground mb-2">✓ Avaliação</h4>
-                <p>Apuração mensal sobre o Faturamento Elegível de cada competência</p>
-              </div>
-              <div>
                 <h4 className="font-semibold text-foreground mb-2">✓ Exclusões</h4>
                 <p>Não são elegíveis vendas canceladas, devolvidas, estornadas ou fraudulentas</p>
               </div>
