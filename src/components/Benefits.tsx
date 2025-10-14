@@ -9,7 +9,7 @@ const benefits = [
   },
   {
     icon: Smartphone,
-    title: "Cartões e Pix",
+    title: "Cartões, Pix e Links de Pagamento",
     description: "Aceite todas as formas de pagamento em um só lugar",
   },
   {
