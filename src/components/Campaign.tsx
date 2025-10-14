@@ -36,7 +36,7 @@ const Campaign = () => {
                 </div>
                 <div>
                   <h3 className="text-3xl font-bold">Premiação</h3>
-                  <p className="text-primary-foreground/90">Ganhe sobre suas vendas</p>
+                  <p className="text-primary-foreground/90">Ganhe sobre todas as vendas</p>
                 </div>
               </div>
               <div className="space-y-4">
