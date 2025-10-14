@@ -30,7 +30,7 @@ const benefits = [
   {
     icon: Users,
     title: "Conta Digital Completa",
-    description: "Portabilidade Pix, pagamento de boletos e muito mais",
+    description: "Portabilidade Pix, Multicontas, Multiusuários e muito mais",
   },
 ];
 
