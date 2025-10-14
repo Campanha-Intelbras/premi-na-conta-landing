@@ -44,7 +44,7 @@ const Benefits = () => {
           </h2>
           <p className="text-lg text-muted-foreground">
             Solução completa de pagamento desenvolvida pela Intelbras em parceria com a Cappta.
-            Maquininha, portal e conta digital para aumentar seus ganhos.
+            Maquininha, portal e conta digital para aumentar as vendas e os ganhos das revendas.
           </p>
         </div>
 
