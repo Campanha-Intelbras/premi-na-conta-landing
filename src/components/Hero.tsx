@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroBanner from "@/assets/hero-banner.jpg";
+import heroMachines from "@/assets/hero-machines.jpg";
 import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
@@ -12,11 +12,11 @@ const Hero = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src={heroBanner}
-          alt="Tá na Conta - Solução de Pagamento"
+          src={heroMachines}
+          alt="Tá na Conta - Maquininhas de Pagamento"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-hero opacity-90" />
+        <div className="absolute inset-0 bg-gradient-hero opacity-85" />
       </div>
 
       {/* Content */}
