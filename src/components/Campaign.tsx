@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import prizeIcon from "@/assets/prize-icon.png";
 import posIcon from "@/assets/pos-icon.png";
-import { Award, Target, Calendar, Package } from "lucide-react";
+import { Sun, Target, Calendar, Package } from "lucide-react";
 
 const Campaign = () => {
   return (
@@ -30,7 +30,7 @@ const Campaign = () => {
               <div className="space-y-4">
                 <div className="bg-primary-foreground/10 rounded-lg p-4 backdrop-blur-sm">
                   <div className="flex items-center gap-3 mb-2">
-                    <Award className="w-6 h-6" />
+                    <Sun className="w-6 h-6" />
                     <span className="font-semibold text-lg">0,2% em Energia Solar</span>
                   </div>
                   <p className="text-sm text-primary-foreground/80 ml-9">
