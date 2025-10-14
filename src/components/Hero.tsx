@@ -26,7 +26,7 @@ const Hero = () => {
             Campanha "Tá na conta e no cartão"
           </h1>
           <p className="text-xl md:text-2xl mb-8 animate-fade-in opacity-90" style={{ animationDelay: "0.2s" }}>
-            Ganhe até <span className="font-bold text-secondary">0,2%</span> sobre o faturamento de projetos de energia solar
+            Ganhe até <span className="font-bold text-emerald-950">0,2%</span> sobre o faturamento de projetos de energia solar
           </p>
           <p className="text-lg md:text-xl mb-12 animate-fade-in opacity-80" style={{ animationDelay: "0.4s" }}>
             Parceria Intelbras & Cappta | Período: 15/10/2025 a 31/12/2025
