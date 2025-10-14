@@ -6,7 +6,7 @@ const FormSection = () => {
     <section id="form-section" className="py-20 scroll-mt-16">
       <div className="container px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 pb-2 bg-gradient-primary bg-clip-text text-transparent">
             Inscreva-se Agora
           </h2>
           <p className="text-lg text-muted-foreground mb-8">
