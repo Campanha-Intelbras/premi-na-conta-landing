@@ -50,7 +50,7 @@ const HowItWorks = () => {
             >
               <CardContent className="p-6 text-center">
                 <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4 relative">
-                  <step.icon className="w-8 h-8 text-primary-foreground" />
+                  <step.icon className="w-8 h-8 text-primary-foreground" strokeWidth={2} fill="none" />
                   <span className="absolute -top-2 -right-2 w-8 h-8 bg-secondary rounded-full flex items-center justify-center text-secondary-foreground font-bold text-sm">
                     {step.number}
                   </span>
