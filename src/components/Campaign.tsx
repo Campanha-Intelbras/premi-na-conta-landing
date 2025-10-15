@@ -101,23 +101,35 @@ const Campaign = () => {
         {/* Additional Info */}
         <Card className="max-w-4xl mx-auto border-primary/20 shadow-elegant">
           <CardContent className="p-8">
-            <h3 className="text-2xl font-bold mb-4 text-center">Detalhes Importantes</h3>
-            <div className="grid md:grid-cols-2 gap-6 text-sm text-muted-foreground">
+            <h3 className="text-2xl font-bold mb-6 text-center">Detalhes Importantes</h3>
+            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 text-sm">
               <div>
-                <h4 className="font-semibold text-foreground mb-2">✓ Quem pode participar</h4>
-                <p>Vendedores e Parceiros do Distribuidor que auxiliarem na ativação e uso da solução "Tá na Conta" junto às Revendas Intelbras da sua carteira</p>
+                <h4 className="font-semibold text-foreground mb-2 flex items-start">
+                  <span className="mr-2">✓</span>
+                  <span>Quem pode participar</span>
+                </h4>
+                <p className="text-muted-foreground">Vendedores e Parceiros do Distribuidor que auxiliarem na ativação e uso da solução "Tá na Conta" junto às Revendas Intelbras da sua carteira</p>
               </div>
               <div>
-                <h4 className="font-semibold text-foreground mb-2">✓ Toda a carteira é válida</h4>
-                <p>Revendas que já aderiram e possuem maquininha também geram ganhos. Lembre-as de usar e seja premiado por isso</p>
+                <h4 className="font-semibold text-foreground mb-2 flex items-start">
+                  <span className="mr-2">✓</span>
+                  <span>Toda a carteira é válida</span>
+                </h4>
+                <p className="text-muted-foreground">Revendas que já aderiram e possuem maquininha também geram ganhos. Lembre-as de usar e seja premiado por isso</p>
               </div>
               <div>
-                <h4 className="font-semibold text-foreground mb-2">✓ Forma de pagamento</h4>
-                <p>Prêmios pagos via Cartão Prêmio até o 15º dia útil do mês subsequente</p>
+                <h4 className="font-semibold text-foreground mb-2 flex items-start">
+                  <span className="mr-2">✓</span>
+                  <span>Forma de pagamento</span>
+                </h4>
+                <p className="text-muted-foreground">Prêmios pagos via Cartão Prêmio até o 15º dia útil do mês subsequente</p>
               </div>
               <div>
-                <h4 className="font-semibold text-foreground mb-2">✓ Exclusões</h4>
-                <p>Não são elegíveis vendas canceladas, devolvidas, estornadas ou fraudulentas</p>
+                <h4 className="font-semibold text-foreground mb-2 flex items-start">
+                  <span className="mr-2">✓</span>
+                  <span>Exclusões</span>
+                </h4>
+                <p className="text-muted-foreground">Não são elegíveis vendas canceladas, devolvidas, estornadas ou fraudulentas</p>
               </div>
             </div>
           </CardContent>
