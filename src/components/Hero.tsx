@@ -24,12 +24,12 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center text-primary-foreground">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
             <span className="text-3xl md:text-4xl block mb-2">Campanha</span>
-            <span className="text-emerald-950">"Tá na conta e no cartão!"</span>
+            <span className="text-foreground">"Tá na conta e no cartão!"</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 animate-fade-in opacity-90" style={{ animationDelay: "0.2s" }}>
-            Ganhe até <span className="font-bold text-emerald-950">0,2%</span> sobre as vendas em cartão das suas revendas
+            Ganhe até <span className="font-bold text-foreground">0,2%</span> sobre as vendas em cartão das suas revendas
           </p>
-          <p className="text-sm md:text-base mb-12 animate-fade-in text-emerald-950 font-medium" style={{ animationDelay: "0.4s" }}>
+          <p className="text-sm md:text-base mb-12 animate-fade-in text-foreground font-medium" style={{ animationDelay: "0.4s" }}>
             Parceria Intelbras & Cappta | Período: 15/10/2025 a 31/12/2025
           </p>
           <Button
