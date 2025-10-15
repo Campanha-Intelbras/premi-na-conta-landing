@@ -61,11 +61,6 @@ const HowItWorks = () => {
             </Card>
           ))}
         </div>
-
-        {/* Connection Line - Hidden on mobile */}
-        <div className="hidden lg:block max-w-7xl mx-auto mt-8 relative">
-          <div className="absolute top-1/2 left-0 w-full h-0.5 bg-gradient-to-r from-primary via-secondary to-primary opacity-30 -translate-y-1/2" style={{ top: "-7rem" }} />
-        </div>
       </div>
     </section>
   );
