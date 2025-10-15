@@ -57,7 +57,7 @@ const Benefits = () => {
             >
               <CardContent className="p-6">
                 <div className="w-12 h-12 bg-gradient-primary rounded-xl flex items-center justify-center mb-4">
-                  <benefit.icon className="w-6 h-6 text-primary-foreground" />
+                  <benefit.icon className="w-6 h-6 text-primary-foreground" strokeWidth={2} fill="none" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">{benefit.title}</h3>
                 <p className="text-muted-foreground">{benefit.description}</p>
