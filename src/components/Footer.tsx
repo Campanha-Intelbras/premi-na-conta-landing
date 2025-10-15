@@ -27,7 +27,7 @@ const Footer = () => {
                   CNPJ: 82.901.000/0001-27
                 </p>
                 <p className="text-primary-foreground/80 text-sm">
-                  <span className="font-semibold">CAPPTA Pagamentos S.A.</span><br />
+                  <span className="font-semibold">CAPPTA PAGAMENTOS S.A.</span><br />
                   CNPJ: 13.966.572/0001-71
                 </p>
               </div>
