@@ -39,17 +39,17 @@ const FormSection = () => {
 
         <Card className="max-w-4xl mx-auto border-primary/20 shadow-elegant animate-fade-in">
           <CardContent className="p-4 md:p-8">
-            <div className="rounded-lg overflow-hidden">
+            <div className="rounded-lg overflow-hidden bg-background">
               <iframe 
                 src="https://docs.google.com/forms/d/e/1FAIpQLSdCnVvR9BsbFu4SxhkLce_rHuDjlRbbGzqQdfWef-gfIo__lg/viewform?embedded=true" 
                 width="100%" 
-                height="1000" 
-                frameBorder="0" 
-                marginHeight={0} 
-                marginWidth={0}
-                className="w-full"
+                height="1000"
+                title="Formulário de Inscrição - Campanha Tá na Conta"
+                className="w-full border-0"
+                style={{ border: 0 }}
+                loading="eager"
               >
-                Carregando…
+                Carregando formulário...
               </iframe>
             </div>
           </CardContent>
