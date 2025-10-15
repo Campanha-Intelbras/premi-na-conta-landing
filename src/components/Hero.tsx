@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="container relative z-10 px-4 py-20">
         <div className="max-w-4xl mx-auto text-center text-primary-foreground">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-            <span className="text-3xl md:text-4xl block mb-2">Campanha</span>
+            <span className="text-3xl md:text-4xl block mb-2 text-foreground">Campanha</span>
             <span className="text-foreground">"Tá na conta e no cartão!"</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 animate-fade-in opacity-90" style={{ animationDelay: "0.2s" }}>
