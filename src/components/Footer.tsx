@@ -16,7 +16,6 @@ const Footer = () => {
               <ul className="space-y-2 text-sm text-primary-foreground/80">
                 <li>• Período: 15/10/2025 a 31/12/2025</li>
                 <li>• Premiação via Cartão Prêmio</li>
-                <li>• Avaliação mensal</li>
                 <li>• Conformidade com LGPD</li>
               </ul>
             </div>
