@@ -28,8 +28,8 @@ const Campaign = () => {
 
         <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto mb-12">
           {/* Prize Info Card */}
-          <Card className="bg-gradient-primary text-primary-foreground border-0 shadow-elegant">
-            <CardContent className="p-8">
+          <Card className="border-0 shadow-elegant" style={{ background: 'linear-gradient(135deg, hsl(156 72% 32%), hsl(156 72% 40%))' }}>
+            <CardContent className="p-8 text-primary-foreground">
               <div className="flex items-center gap-4 mb-6">
                 <div className="bg-primary-foreground/10 rounded-2xl p-2 backdrop-blur-sm">
                   <img src={prizeIcon} alt="Prêmios" className="w-16 h-16" />
@@ -63,8 +63,8 @@ const Campaign = () => {
           </Card>
 
           {/* Requirements Card */}
-          <Card className="bg-gradient-secondary text-secondary-foreground border-0 shadow-elegant">
-            <CardContent className="p-8">
+          <Card className="border-0 shadow-elegant" style={{ background: 'linear-gradient(135deg, hsl(158 65% 40%), hsl(158 65% 48%))' }}>
+            <CardContent className="p-8 text-secondary-foreground">
               <div className="flex items-center gap-4 mb-6">
                 <div className="bg-secondary-foreground/10 rounded-2xl p-2 backdrop-blur-sm">
                   <img src={posIcon} alt="Requisitos" className="w-16 h-16" />
