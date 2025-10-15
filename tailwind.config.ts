@@ -111,11 +111,9 @@ export default {
         "pulse-glow": {
           "0%, 100%": {
             transform: "scale(1)",
-            boxShadow: "0 0 20px rgba(255, 255, 255, 0.5), 0 0 40px rgba(255, 255, 255, 0.3)",
           },
           "50%": {
             transform: "scale(1.05)",
-            boxShadow: "0 0 30px rgba(255, 255, 255, 0.8), 0 0 60px rgba(255, 255, 255, 0.5)",
           },
         },
       },
