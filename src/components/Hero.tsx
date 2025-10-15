@@ -36,8 +36,7 @@ const Hero = () => {
           <Button
             onClick={scrollToForm}
             size="lg"
-            className="bg-secondary hover:bg-secondary/90 text-secondary-foreground text-lg px-8 py-6 rounded-xl shadow-glow animate-scale-in hover-scale animate-pulse"
-            style={{ animationDelay: "0.6s" }}
+            className="bg-secondary hover:bg-secondary/90 text-secondary-foreground text-lg px-8 py-6 rounded-xl animate-pulse-glow"
           >
             Participar Agora
             <ArrowRight className="ml-2 h-5 w-5" />
