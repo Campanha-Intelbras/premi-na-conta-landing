@@ -14,7 +14,7 @@ const Hero = () => {
         <img
           src={heroMachines}
           alt="Tá na Conta - Maquininhas de Pagamento"
-          className="w-full h-full object-cover blur-md"
+          className="w-full h-full object-cover blur"
           loading="eager"
         />
         <div className="absolute inset-0 bg-gradient-hero opacity-85" />
