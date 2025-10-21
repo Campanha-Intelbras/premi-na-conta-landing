@@ -122,7 +122,7 @@ const Campaign = () => {
                   <span className="mr-2">✓</span>
                   <span>Forma de pagamento</span>
                 </h4>
-                <p className="text-muted-foreground">Prêmios pagos via Cartão Prêmio até o 15º dia útil do mês subsequente</p>
+                <p className="text-muted-foreground">Prêmios pagos via Cartão Prêmio até o 15º dia útil do mês subsequente ao encerramento da Campanha</p>
               </div>
               <div>
                 <h4 className="font-semibold text-foreground mb-2 flex items-start">
