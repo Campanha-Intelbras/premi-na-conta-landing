@@ -27,8 +27,6 @@ const FormSection = () => {
                 <a
                   href="/termo-de-adesao.pdf"
                   download="Termo-de-Adesao-Ta-na-Conta.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-medium text-sm transition-colors"
                 >
                   Baixar Termo de Adesão (PDF)
