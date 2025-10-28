@@ -26,9 +26,8 @@ const Footer = () => {
                   <span className="font-semibold">INTELBRAS S/A</span><br />
                   CNPJ: 82.901.000/0001-27
                 </p>
-                <p className="text-primary-foreground/80 text-sm">
-                  <span className="font-semibold">CAPPTA PAGAMENTOS S.A.</span><br />
-                  CNPJ: 13.966.572/0001-71
+                <p className="text-primary-foreground/80 text-xs">
+                  <span className="font-semibold">CAPPTA INSTITUIÇÃO DE PAGAMENTO S.A.</span> - CNPJ: 13.966.572/0001-71
                 </p>
               </div>
             </div>
