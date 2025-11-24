@@ -45,7 +45,7 @@ const Hero = () => {
             <Button
               asChild
               size="lg"
-              className="bg-[#10b981]/30 border-2 border-foreground text-foreground hover:bg-[#10b981]/40 text-lg px-8 py-6 rounded-xl"
+              className="bg-[#86efac] border-2 border-foreground text-foreground hover:bg-[#6ee7b7] text-lg px-8 py-6 rounded-xl"
             >
               <a 
                 href="https://campanha-tanaconta.netlify.app" 
