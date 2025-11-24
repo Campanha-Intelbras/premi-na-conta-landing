@@ -37,7 +37,7 @@ const Hero = () => {
             <Button
               onClick={scrollToForm}
               size="lg"
-              className="bg-gradient-to-r from-[#00ff88] to-[#00d084] hover:from-[#00d084] hover:to-[#00a86b] text-secondary-foreground text-lg px-8 py-6 rounded-xl shadow-glow animate-pulse-glow will-change-transform"
+              className="bg-gradient-to-r from-[#00ff88] to-[#00d084] hover:from-[#00d084] hover:to-[#00a86b] text-secondary-foreground text-lg px-8 py-6 rounded-xl shadow-glow animate-pulse-glow will-change-transform border-2 border-white"
             >
               Participar Agora
               <ArrowRight className="ml-2 h-5 w-5" />
