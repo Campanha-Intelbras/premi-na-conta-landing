@@ -81,7 +81,7 @@ const Campaign = () => {
                     <span className="font-semibold text-lg">Período da Campanha</span>
                   </div>
                   <p className="text-sm text-secondary-foreground/80 ml-9">
-                    15/10/2025 a 31/12/2025
+                    15/10/2025 a 31/03/2026
                   </p>
                 </div>
                 <div className="bg-secondary-foreground/10 rounded-lg p-4 backdrop-blur-sm">

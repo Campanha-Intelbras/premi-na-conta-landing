@@ -31,7 +31,7 @@ const Hero = () => {
             Ganhe até <span className="font-bold text-foreground">0,2%</span> sobre as vendas em cartão das suas revendas
           </p>
           <p className="text-sm md:text-base mb-12 animate-fade-in text-foreground font-medium" style={{ animationDelay: "0.4s" }}>
-            Parceria Intelbras & Cappta | Período: 15/10/2025 a 31/12/2025
+            Parceria Intelbras & Cappta | Período: 15/10/2025 a 31/03/2026
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
             <Button
