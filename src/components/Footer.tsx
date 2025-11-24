@@ -14,7 +14,7 @@ const Footer = () => {
             <div>
               <h3 className="text-xl font-bold mb-4">Campanha</h3>
               <ul className="space-y-2 text-sm text-primary-foreground/80">
-                <li>• Período: 15/10/2025 a 31/12/2025</li>
+                <li>• Período: 15/10/2025 a 31/03/2026</li>
                 <li>• Premiação via Cartão Prêmio</li>
                 <li>• Conformidade com LGPD</li>
               </ul>
