@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroMachines from "@/assets/hero-machines.jpg";
-import { ArrowRight, ExternalLink } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
   const scrollToForm = () => {
@@ -45,8 +45,7 @@ const Hero = () => {
             <Button
               asChild
               size="lg"
-              variant="outline"
-              className="border-2 border-foreground/80 text-foreground hover:bg-foreground/10 text-lg px-8 py-6 rounded-xl"
+              className="bg-[#10b981]/30 border-2 border-foreground text-foreground hover:bg-[#10b981]/40 text-lg px-8 py-6 rounded-xl"
             >
               <a 
                 href="https://campanha-tanaconta.netlify.app" 
@@ -54,7 +53,6 @@ const Hero = () => {
                 rel="noopener noreferrer"
               >
                 Acompanhe seu prêmio
-                <ExternalLink className="ml-2 h-5 w-5" />
               </a>
             </Button>
           </div>
