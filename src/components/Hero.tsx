@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroMachines from "@/assets/hero-machines.jpg";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ExternalLink } from "lucide-react";
 
 const Hero = () => {
   const scrollToForm = () => {
@@ -33,14 +33,31 @@ const Hero = () => {
           <p className="text-sm md:text-base mb-12 animate-fade-in text-foreground font-medium" style={{ animationDelay: "0.4s" }}>
             Parceria Intelbras & Cappta | Período: 15/10/2025 a 31/12/2025
           </p>
-          <Button
-            onClick={scrollToForm}
-            size="lg"
-            className="bg-gradient-to-r from-[#00ff88] to-[#00d084] hover:from-[#00d084] hover:to-[#00a86b] text-secondary-foreground text-lg px-8 py-6 rounded-xl shadow-glow animate-pulse-glow will-change-transform"
-          >
-            Participar Agora
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
+          <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
+            <Button
+              onClick={scrollToForm}
+              size="lg"
+              className="bg-gradient-to-r from-[#00ff88] to-[#00d084] hover:from-[#00d084] hover:to-[#00a86b] text-secondary-foreground text-lg px-8 py-6 rounded-xl shadow-glow animate-pulse-glow will-change-transform"
+            >
+              Participar Agora
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="border-2 border-foreground/80 text-foreground hover:bg-foreground/10 text-lg px-8 py-6 rounded-xl"
+            >
+              <a 
+                href="https://campanha-tanaconta.netlify.app" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Acompanhe seu prêmio
+                <ExternalLink className="ml-2 h-5 w-5" />
+              </a>
+            </Button>
+          </div>
         </div>
       </div>
 
